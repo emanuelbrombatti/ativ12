@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tecnologia em foco</title>
+  </head>
+  <body>
+    <div class="capa" id="capa">
+      <h1>Tecnologia em foco</h1>
+      <p>
+        Notícias e artigos sobre novas tecnologias e também sobre aquelas que já fazem parte da nossa vida, você vai
+        encontrar por aqui.
+      </p>
+    </div>
+    <div id="menu-off"></div>
+    <div class="links sticky" id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#princ-noticias">Principais Notícias</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#footer">Contate-nos</a>
+    </div>
+
+    <div class="row">
+      <aside id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+          Bem-vindo ao Tecnologia em foco! <br />
+          Somos uma fonte confiável de notícias e informações sobre tecnologia.
+        </p>
+        <img src="img/profile.jpg" alt="" />
+
+        <ul id="categorias">
+          <h3>Categorias:</h3>
+          <li><a href="">Celulares e tablets</a></li>
+          <li><a href="">Jogos</a></li>
+          <li><a href="">Eletrônicos</a></li>
+          <li><a href="">Softwares</a></li>
+        </ul>
+      </aside>
+
+      <div id="noticias" class="content">
+        <h1>Últimas Notícias</h1>
+        <div class="slider-container">
+          <div class="controls-lr">
+            <button class="btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="btn-right"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+          <ul class="controls-p">
+            <li>
+              <div class="circle">
+                <div class="circle-active"></div>
+              </div>
+            </li>
+            <li>
+              <div class="circle">
+                <div class="circle-active"></div>
+              </div>
+            </li>
+            <li>
+              <div class="circle">
+                <div class="circle-active"></div>
+              </div>
+            </li>
+          </ul>
+          <div class="my-slider" id="my-slider">
+            <div class="slide-item">
+              <div class="row">
+                <div class="img" style="background-image: url(img/apple.jpg)"></div>
+                <div class="info">
+                  <h2>Apple Vision Pro: tudo sobre os novos óculos de realidade mista da Apple</h2>
+                  <a class="slide-btn">Veja detalhes</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-item">
+              <div class="row">
+                <div class="img" style="background-image: url(img/samsung.jpg)"></div>
+                <div class="info">
+                  <h2>Samsung lança linha 2023 de TVs no Brasil com modelos de até R$ 85 mil</h2>
+                  <a class="slide-btn">Veja detalhes</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-item">
+              <div class="row">
+                <div class="img" style="background-image: url(img/samsung02.jpg)"></div>
+                <div class="info">
+                  <h2>Galaxy Z Fold 5: primeira imagem do modelo é revelada</h2>
+                  <a class="slide-btn">Veja detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="princ-noticias">
+        <h1>Principais Notícias</h1>
+        <div class="container">
+          <h2>Apple Vision Pro: tudo sobre os novos óculos de realidade mista da Apple</h2>
+          <p class="date">06/06/2023 13h05 • Atualizado há uma hora</p>
+          <div class="img" style="background-image: url(img/apple.jpg)"></div>
+          <p>
+            Headset de $3,499 é a aposta da Apple no segmento de dispositivos de realidade virtual e aumentada. Modelo é
+            controlado por movimento dos olhos, mãos e voz do usuário.
+          </p>
+        </div>
+        <div class="container">
+          <h2>Samsung lança linha 2023 de TVs no Brasil com modelos de até R$ 85 mil</h2>
+          <p class="date">06/06/2023 às 18:30 • Atualizado há cinco horas</p>
+          <div class="img" style="background-image: url(img/samsung.jpg)"></div>
+          <p>
+            A Samsung anunciou, nesta terça-feira (06), o portfólio de smart TVs de 2023 da marca, que conta com modelos
+            que custam até R$ 85 mil. No caso, um dos destaques é a Samsung OLED 4K S90C, um produto da sul-coreana que
+            é inédito no Brasil.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <footer id="footer">
+      <div>
+        <h2>Entre em contato!</h2>
+      </div>
+      <div class="row">
+        <div class="contatos">
+          <ul>
+            <li>
+              <img class="logo" src="img/instagram.png" alt="" />
+              <a target="_blank" href="https://www.instagram.com/fundacaoliberatooficial/">
+                instagram.com/tecnologiaemfoco
+              </a>
+            </li>
+            <li>
+              <img class="logo" src="img/facebook.png" alt="" />
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100064829222825">
+                facebook.com/tecnologiaemfoco
+              </a>
+            </li>
+            <li><img class="logo" src="img/phone.png" alt="" /><a>(51) 4002-8922</a></li>
+          </ul>
+        </div>
+        <div class="map">
+
+          <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=R.%20Inconfidentes,%20395%20-%20Primavera,%20Novo%20Hamburgo%20-%20RS,%2093340-140+(Tecnologia%20em%20foco)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+          </iframe>
+        </div>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
